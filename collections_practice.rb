@@ -20,12 +20,7 @@ def swap_elements(array)
 end
 
 def kesha_maker(array)
-  array = ["blake", "ashley", "scott"]
-  n = array.length
-  i = 0
-  while i < n
-    array[i] = array[i]("$")
-  end
+  array.map{|e| e.gsub('$')}
 end
 
 def find_a(array)
