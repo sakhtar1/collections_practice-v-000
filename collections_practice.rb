@@ -12,7 +12,7 @@ def sort_array_char_count(array)
 end
 
 def reverse_array(array)
-  arr = array.reverse
+  arr = array.reverse!
   arr.sort
   
 end
