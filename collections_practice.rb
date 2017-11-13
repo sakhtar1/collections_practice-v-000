@@ -7,12 +7,10 @@ def sort_array_desc(array)
 end
 
 def sort_array_char_count(array)
-    array.collect |arr| arr.count
+    array.reverse!
     array.sort
 end
 
 def reverse_array(array)
   arr = array.reverse!
-  
-
 end
