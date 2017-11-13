@@ -20,7 +20,10 @@ def swap_elements(array)
 end
 
 def kesha_maker(array)
-  array.map{|e| gsub(array[3])}
+  array= ["blake", "ashley", "scott"]
+  my_each(array) do |i|
+    puts array[3,"$"]
+end
 end
 
 def find_a(array)
