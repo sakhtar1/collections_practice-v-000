@@ -26,7 +26,7 @@ end
 def find_a(array)
   ["apple", "orange", "pear", "avis", "arlo",
     "ascot" ].select do |number|
-      number.starts_with?("a")
+      number.start_with?("a")
     end
 
 end
