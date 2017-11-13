@@ -20,8 +20,14 @@ def swap_elements(array)
 end
 
 def kesha_maker(array)
-  arr= [array[0].insert(3, '$'), array[1].insert(3, '$'), array[2].insert(3, '$')]
-end
+  array = ["blake", "ashley", "scott"]
+  n = array.length
+  i = 0
+  while i < n
+    array[i] = array[i]("$"")
+
+  end
+  end
 
 def find_a(array)
     ["apple", "orange", "pear", "avis", "arlo",
