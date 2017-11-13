@@ -15,8 +15,8 @@ def reverse_array(array)
   array.reverse!
 end
 
-def swap_elements(array, index, destination_index)
-  swap_elements_from_to(["blake", "ashley", "scott"],2,1)
+def swap_elements(array)
+  array[1], array[2] = array[0], array[2], array[1]
 end
 
 def kesha_maker(array)
