@@ -21,9 +21,9 @@ end
 
 def kesha_maker(array)
   array= ["blake", "ashley", "scott"]
-  my_each(array) do |i|
+  array.each do |i|
     puts array[3,("$")]
-end
+  end
 end
 
 def find_a(array)
