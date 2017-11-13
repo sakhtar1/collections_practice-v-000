@@ -8,7 +8,7 @@ end
 
 def sort_array_char_count(array)
     arr = array.reverse!
-    arr = array.sort
+    arr.sort
 end
 
 def reverse_array(array)
