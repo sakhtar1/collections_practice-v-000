@@ -32,3 +32,7 @@ def find_a(array)
     end
   end
 end
+
+def add_s(array)
+    arr= [array[0].insert(4, 's'), array[2].insert(4, 's'), array[3].insert(5, 's')]
+end
