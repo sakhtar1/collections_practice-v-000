@@ -27,7 +27,7 @@ def find_a(array)
   ["apple", "orange", "pear", "avis", "arlo",
   "ascot" ].collect do |array|
     array = []
-    if array.start_with?("a")
+    if array.starts_with?("a")
      return array
     end
   end
