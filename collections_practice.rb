@@ -18,3 +18,15 @@ end
 def swap_elements(array)
   array[1], array[2] = array[0], array[2], array[1]
 end
+
+def kesha_maker(array)
+
+end
+
+def find_a(array)
+  ["apple", "orange", "pear", "avis", "arlo",
+ "ascot" ].collect do |array|
+  if array.start_with?("a")
+    puts array
+  end
+end
