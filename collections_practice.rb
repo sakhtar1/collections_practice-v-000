@@ -14,5 +14,5 @@ end
 def reverse_array(array)
   arr = array.reverse!
   arr.sort
-  
+
 end
