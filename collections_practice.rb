@@ -15,7 +15,7 @@ def reverse_array(array)
   array.reverse!
 end
 
-def swap_elements(array)
+def swap_elements(["blake", "ashley", "scott"])
   swap_elements_from_to(["blake", "ashley", "scott"],2,1) 
 end
 
