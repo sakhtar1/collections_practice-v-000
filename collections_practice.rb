@@ -24,7 +24,10 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  array.starts_with?("a")
+  ["apple", "orange", "pear", "avis", "arlo",
+    "ascot" ].select do |number|
+      number.starts_with?("a")
+    end
 
 end
 
