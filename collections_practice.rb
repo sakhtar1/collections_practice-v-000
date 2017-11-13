@@ -24,12 +24,12 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  ["apple", "orange", "pear", "avis", "arlo",
-  "ascot" ].collect do |array|
-    if array.all?.start_with?("a")
-     return array
+    ["apple", "orange", "pear", "avis", "arlo",
+    "ascot" ].each do |name|
+      if name.start_with?("a")
+        puts "Hi, #{name}"
+      end
     end
-  end
 end
 
 def add_s(array)
