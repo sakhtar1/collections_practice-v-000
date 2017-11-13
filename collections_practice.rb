@@ -35,3 +35,7 @@ end
 def add_s(array)
     arr= [array[0].insert(4, 's'), array[1], array[2].insert(4, 's'), array[3].insert(5, 's')]
 end
+
+def sum_array(array)
+  array.inject(0, :+)
+end
