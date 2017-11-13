@@ -16,7 +16,7 @@ def reverse_array(array)
 end
 
 def swap_elements(array)
-  array[1], array[2] = array[0], array[2], array[1]
+  swap_elements(["blake", "ashley", "scott"],0,2)
 end
 
 def kesha_maker(array)
