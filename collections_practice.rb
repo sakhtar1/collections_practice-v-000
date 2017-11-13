@@ -24,10 +24,9 @@ def kesha_maker(array)
   n = array.length
   i = 0
   while i < n
-    array[i] = array[i]("$"")
-
+    array[i] = array[i]("$")
   end
-  end
+end
 
 def find_a(array)
     ["apple", "orange", "pear", "avis", "arlo",
