@@ -20,7 +20,7 @@ def swap_elements(array)
 end
 
 def kesha_maker(array)
-  array.insert(3, '$') 
+  array[1].insert(3, '$') 
 end
 
 def find_a(array)
