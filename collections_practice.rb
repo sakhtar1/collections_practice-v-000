@@ -23,7 +23,7 @@ def kesha_maker(array)
   array= ["blake", "ashley", "scott"]
   array.each do |i|
     i = i.insert(2,("$"))
-    i.slice(3)
+    i.slice!(3)
   end
 end
 
